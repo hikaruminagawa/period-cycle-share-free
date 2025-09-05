@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App global styles */
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+}
+
+.container-mobile {
+  @apply mx-auto max-w-md px-4;
+}
+
+.tap-target {
+  min-height: 44px;
+}
